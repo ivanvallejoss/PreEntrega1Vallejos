@@ -1,0 +1,12 @@
+.itemContainer{
+    width: 230px;
+    min-height: 200px;
+    margin: 35px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #242424;
+    border-radius: 5px;
+}
