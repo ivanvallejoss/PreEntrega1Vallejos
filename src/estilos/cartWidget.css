@@ -1,0 +1,10 @@
+.cartContainer{
+    height: 100%;
+    width: 25px;
+    display: flex;
+}
+
+#cartWidget{
+    width: 25px;
+    height: 100%;
+}

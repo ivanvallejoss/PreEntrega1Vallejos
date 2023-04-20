@@ -1,3 +1,4 @@
+import CartWidget from './cartWidget'
 import '../estilos/NavBar.css'
 
 
@@ -12,7 +13,7 @@ export const NavBar = () =>{
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Suscribete</a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#"><CartWidget/></a></li>
             </ul>
         </nav>
     )
