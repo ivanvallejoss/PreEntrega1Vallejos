@@ -1,7 +1,7 @@
 .itemContainer{
-    width: 230px;
+    width: 250px;
     min-height: 200px;
-    margin: 35px;
+    margin: 25px;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -9,4 +9,10 @@
     align-items: center;
     border: 1px solid #242424;
     border-radius: 5px;
+}
+
+.fakeIcon{
+    margin-bottom: 10px;
+    height: 80%;
+    width: 100%;
 }
