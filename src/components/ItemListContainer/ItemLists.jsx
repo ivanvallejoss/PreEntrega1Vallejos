@@ -1,5 +1,5 @@
 import totemFakeArt from '../../assets/totemFake.svg'
-import './ItemList.css'
+import './ItemList.scss'
 
 export const ItemList = ({greetings}) =>{
     
