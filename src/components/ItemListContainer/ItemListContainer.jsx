@@ -1,4 +1,4 @@
-import '../estilos/itemListContainer.css'
+import './itemListContainer.css'
 import ItemList from './ItemLists.jsx'
 
 export const ItemListContainer = () =>{

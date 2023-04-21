@@ -1,4 +1,4 @@
-import '../estilos/cartWidget.css'
+import './cartWidget.css'
 import cartIcon from '../assets/cart.svg'
 
 export const CartWidget = () =>{
