@@ -1,4 +1,4 @@
-import totemFakeArt from '../assets/totemFake.svg'
+import totemFakeArt from '../../assets/totemFake.svg'
 import './ItemList.css'
 
 export const ItemList = ({greetings}) =>{

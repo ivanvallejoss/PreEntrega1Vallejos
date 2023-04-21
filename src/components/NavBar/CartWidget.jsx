@@ -1,5 +1,5 @@
 import './cartWidget.css'
-import cartIcon from '../assets/cart.svg'
+import cartIcon from '../../assets/cart.svg'
 
 export const CartWidget = () =>{
 

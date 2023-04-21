@@ -1,5 +1,5 @@
-import NavBar from './components/NavBar'
-import ItemListContainer from './components/ItemListContainer.jsx'
+import NavBar from './components/NavBar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import './estilos/App.css'
 
 function App() {
