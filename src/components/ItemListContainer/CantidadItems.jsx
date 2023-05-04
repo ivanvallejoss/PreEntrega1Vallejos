@@ -5,7 +5,7 @@ export const CantidadItems = () =>{
 
     const [counter, setCounter] = useState(0)
             
-    const sumar = () => {setCounter(counter + 1)}
+    const sumar = () => setCounter(counter + 1)
     
     const restar = () =>{
         if(counter <= 0)

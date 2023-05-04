@@ -1,12 +1,12 @@
 import './cartWidget.scss'
-import cartIcon from '../../assets/cart.svg'
+import cartIcon from '../../../assets/cart.svg'
 
 export const CartWidget = () =>{
 
     return(
         <div className='cartContainer'>
             <img src={cartIcon} alt="carrito de productos" id='cartWidget'/>
-             <p><sup>0</sup></p>
+            <p><sup>0</sup></p>
         </div>
     )
 }

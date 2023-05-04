@@ -1,5 +1,5 @@
 import './ItemList.scss'
-import CantidadItems from './CantidadItems.jsx'
+import CantidadItems from '../CantidadItems.jsx'
 
 export const ItemList = ({greetings}) =>{
     
