@@ -1,6 +1,7 @@
 .itemContainer{
     width: 250px;
     height: 60vh;
+    min-height: 350px;
     margin: 25px;
     padding: 5px;
     display: flex;
@@ -9,6 +10,7 @@
     align-items: center;
     border: 1px solid #242424;
     border-radius: 5px;
+    overflow: hidden;
 
     &__info{
         height: 55%;
@@ -18,11 +20,10 @@
         align-items: center;
 
         & p{
-            font-size: 0.9em;
+            font-size: 0.8em;
         }
     }
 }
-
 .fakeIcon{
     margin-bottom: 10px;
     height: 45%;

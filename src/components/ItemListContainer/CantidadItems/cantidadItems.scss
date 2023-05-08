@@ -1,0 +1,26 @@
+.botonesCantidad{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & button{
+        height: 100%;
+        width: 3em;
+        margin: 0px;
+        font-weight: 600;
+        font-size: 1em;
+        border: 1px solid rgb(168, 168, 168);
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    & p{
+        width: 50%;
+        font-size: 0.9em;
+        font-weight: 600;
+        // background-color: rgb(231, 230, 228);
+        text-align: center;
+    }
+}

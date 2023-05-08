@@ -14,7 +14,7 @@ export const CantidadItems = () =>{
     }
 
     return (
-        <div className="containerBotones">
+        <div className="botonesCantidad">
             <button onClick={restar}>-</button>
             <p>{counter}</p>
             <button onClick={sumar}>+</button>

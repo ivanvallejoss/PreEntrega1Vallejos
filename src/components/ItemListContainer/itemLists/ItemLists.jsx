@@ -1,18 +1,20 @@
-import './ItemList.scss'
-import CantidadItems from '../CantidadItems.jsx'
+import ItemCard from '../itemCard/ItemCard.jsx'
+import './ItemLists.scss'
 
-export const ItemList = ({greetings}) =>{
+export const ItemList = ({items}) =>{
     
     return (
-        <div className="itemContainer">
-            <img src={'./public/totemFake.svg'} alt="" className='fakeIcon'/>
-            <div className='itemContainer__info'>
-            <h3>{greetings}</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil optio placeat explicabo, minima aspernatur, soluta delectus unde reprehenderit omnis deleniti facere, cupiditate voluptates quidem temporibus! Sunt odit iste assumenda laboriosam!</p>
-            <CantidadItems/>
+        <div className='itemLists'>
+        {
+            items.map((prod) =>{
+                console.log(prod.img)
+                return (
+                    <ItemCard itemC={prod} key={prod.id}/>
+                    )
+            })
+        }
             </div>
-        </div>
-    )
-}
-
-export default ItemList
+        )
+    }
+            
+            export default ItemList
