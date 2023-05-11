@@ -7,9 +7,8 @@ export const ItemList = ({items}) =>{
         <div className='itemLists'>
         {
             items.map((prod) =>{
-                console.log(prod.img)
                 return (
-                    <ItemCard itemC={prod} key={prod.id}/>
+                    <ItemCard item={prod} key={prod.id}/>
                     )
             })
         }

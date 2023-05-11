@@ -2,16 +2,22 @@
     width: 250px;
     height: 60vh;
     min-height: 350px;
-    margin: 25px;
+    margin: 5px;
     padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border: 1px solid #242424;
+    // border: 1px solid #242424;
+    box-shadow: 1px 2px 7px #817f7f;
     border-radius: 5px;
     overflow: hidden;
 
+    &__img{
+        margin-bottom: 10px;
+        height: 45%;
+    }
+    
     &__info{
         height: 55%;
         display: flex;
@@ -23,8 +29,4 @@
             font-size: 0.8em;
         }
     }
-}
-.fakeIcon{
-    margin-bottom: 10px;
-    height: 45%;
 }
