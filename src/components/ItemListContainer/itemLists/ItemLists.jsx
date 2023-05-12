@@ -12,8 +12,8 @@ export const ItemList = ({items}) =>{
                     )
             })
         }
-            </div>
-        )
-    }
+        </div>
+    )
+}
             
-            export default ItemList
+export default ItemList

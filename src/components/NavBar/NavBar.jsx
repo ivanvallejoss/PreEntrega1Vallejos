@@ -1,4 +1,5 @@
 import CartWidget from './CartWidget/CartWidget.jsx'
+import { Link } from 'react-router-dom'
 import './NavBar.scss'
 
 
@@ -7,12 +8,12 @@ export const NavBar = () =>{
 
     return (
         <header className='navBar'>
-            <h2><a href="#">ArtFake</a></h2>
+            <h2><Link to={'/'}>ArtFake</Link></h2>
             <nav className='navBar__menu'>
-                <p><a href="#">Inicio</a></p>
-                <p><a href="#">Productos</a></p>
-                <p><a href="#">Nosotros</a></p>
-                <p><a href="#">Suscribete</a></p>
+                <p><Link to={'/'}>Inicio</Link></p>
+                <p><Link to={'/'}>Productos</Link></p>
+                <p><Link to={'/'}>Nosotros</Link></p>
+                <p><Link to={'/'}>Suscribete</Link></p>
                 <CartWidget/>
             </nav>
         </header>

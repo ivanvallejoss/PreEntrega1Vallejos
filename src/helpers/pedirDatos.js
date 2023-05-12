@@ -4,7 +4,7 @@ const pedirDatos = () =>{
     return new Promise((res, rej) => {
         setTimeout(() =>{
             res(MOCK_DATA)
-        }, 2000)
+        }, 1500)
     })
 }
 

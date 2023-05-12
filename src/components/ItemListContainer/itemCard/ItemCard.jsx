@@ -3,8 +3,6 @@ import CantidadItems from '../CantidadItems/CantidadItems.jsx'
 
 const ItemCard = ({item}) =>{
     
-    
-    
     return (
         <div className='itemContainer'>
             <img src={item.img} alt="" className='itemContainer__img'/>
