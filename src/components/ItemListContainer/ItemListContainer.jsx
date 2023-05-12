@@ -1,19 +1,22 @@
 import './itemListContainer.scss'
-import { useProductos } from '../../hooks/useProductos'
+import { useCategories } from '../../hooks/useCategories'
 import ItemList from './itemLists/ItemLists.jsx'
+import CatalogoContainer from '../CatalogoContainer/CatalogoContainer'
 
 export const ItemListContainer = () =>{
 
-    const {productos, loading} = useProductos()
+    const {productos, loading} = useCategories()
 
     return (
         <section>
-            <h2>Productos</h2>
+            <div>
             {
                 loading
                 ? <h2 id='loadingIcon'>Cargando...</h2>
                 : <ItemList items={productos}/>
             }
+            </div>
+            <CatalogoContainer/>
         </section>
     )
 }

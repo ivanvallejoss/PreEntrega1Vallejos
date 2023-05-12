@@ -1,11 +1,9 @@
 import MOCK_DATA from "../data/MOCK_DATA"
 
-const pedirDatos = () =>{
+export const pedirDatos = () =>{
     return new Promise((res, rej) => {
         setTimeout(() =>{
             res(MOCK_DATA)
-        }, 1500)
+        }, 1000)
     })
 }
-
-export default pedirDatos

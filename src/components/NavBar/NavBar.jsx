@@ -10,10 +10,16 @@ export const NavBar = () =>{
         <header className='navBar'>
             <h2><Link to={'/'}>ArtFake</Link></h2>
             <nav className='navBar__menu'>
-                <p><Link to={'/'}>Inicio</Link></p>
-                <p><Link to={'/'}>Productos</Link></p>
-                <p><Link to={'/'}>Nosotros</Link></p>
-                <p><Link to={'/'}>Suscribete</Link></p>
+                <Link to={'/'}>Inicio</Link>
+                <Link to={'/'}>Catalogo</Link>
+                <ul>
+                    <li><Link>Fantasia</Link></li>
+                    <li><Link>Material</Link></li>
+                    <li><Link>Abstracto</Link></li>
+                    <li><Link>Sombras</Link></li>
+                </ul>
+                <Link to={'/'}>Nosotros</Link>
+                <Link to={'/'}>Suscribete</Link>
                 <CartWidget/>
             </nav>
         </header>

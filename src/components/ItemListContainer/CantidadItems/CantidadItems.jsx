@@ -14,11 +14,11 @@ export const CantidadItems = () =>{
     }
 
     return (
-        <div className="botonesCantidad">
+        <section className="botonesCantidad">
             <button onClick={restar}>-</button>
             <p>{counter}</p>
             <button onClick={sumar}>+</button>
-        </div>
+        </section>
     )
 }
 

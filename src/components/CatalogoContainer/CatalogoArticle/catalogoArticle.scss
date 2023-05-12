@@ -1,0 +1,33 @@
+.catalogoArticle{
+    position: sticky;
+    right: 20px;
+    min-width: 175px;
+    height: 300px;
+    margin: 8vh 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    box-shadow: 3px 3px 6px #817f7f, -2px -2px 6px #b3afaf;
+    border-radius: 1em;
+    
+    &__title{
+        font-size: 1.1em;
+    
+        & sup{
+            font-weight: 700;
+            font-size: 0.7em;
+        }
+    }
+}
+
+
+ul li{
+    margin-top: 2px;
+    padding-left: 20px;
+    font-weight: 450;
+    font-size: 1em;
+    list-style: none;
+}
+
+ul li::first-letter{
+    text-transform: uppercase;
+}

@@ -4,6 +4,12 @@ h2{
     letter-spacing: 2px;
 }
 
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 .navBar{
     height: 8vh;
     width: 100%;
@@ -33,4 +39,11 @@ h2{
     }
 }
 
-
+.navBar__menu ul li{
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    top: 100%;
+    display: none;
+    position: absolute;
+}
