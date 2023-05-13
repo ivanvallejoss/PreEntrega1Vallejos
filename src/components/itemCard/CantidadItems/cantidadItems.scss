@@ -1,0 +1,45 @@
+.containerBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnCantidad{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & button{
+        height: 70%;
+        width: 3em;
+        margin: 0px;
+        font-weight: 500;
+        font-size: 1.4em;
+        border: none;
+        border-radius: 0.2em;
+        cursor: pointer;
+    }
+
+    & p{
+        width: 50%;
+        font-size: 0.9em;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.comprarBtn{
+    width: 90%;
+    height: 25px;
+    border: none;
+    border-radius: 0.2em;
+    background-color: #000000;
+    color: rgb(241, 239, 239);
+    font-weight: 600;
+}
+
+.noVerBtn{
+    display: none;
+}

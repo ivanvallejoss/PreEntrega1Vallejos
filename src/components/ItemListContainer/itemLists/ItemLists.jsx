@@ -1,5 +1,4 @@
-import ItemCard from '../itemCard/ItemCard.jsx'
-import CatalogoArticle from '../../CatalogoContainer/CatalogoArticle/CatalogoArticle.jsx'
+import ItemCard from '../../itemCard/ItemCard.jsx'
 import './ItemLists.scss'
 
 export const ItemList = ({items}) =>{
@@ -9,7 +8,7 @@ export const ItemList = ({items}) =>{
         {
             items.map((prod) =>{
                 return (
-                    <ItemCard item={prod} key={prod.id} btnSumar="noVerBtn"/>
+                    <ItemCard item={prod} key={prod.id} btnComprar="noVerBtn" itemDescripcion={prod.resumen}/>
                     )
             })
         }

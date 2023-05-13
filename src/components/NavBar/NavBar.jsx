@@ -12,12 +12,12 @@ export const NavBar = () =>{
             <nav className='navBar__menu'>
                 <Link to={'/'}>Inicio</Link>
                 <Link to={'/'}>Catalogo</Link>
-                <ul>
+                {/* <ul>
                     <li><Link>Fantasia</Link></li>
                     <li><Link>Material</Link></li>
                     <li><Link>Abstracto</Link></li>
                     <li><Link>Sombras</Link></li>
-                </ul>
+                </ul> */}
                 <Link to={'/'}>Nosotros</Link>
                 <Link to={'/'}>Suscribete</Link>
                 <CartWidget/>

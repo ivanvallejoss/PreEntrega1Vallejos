@@ -1,7 +1,7 @@
 import {useState} from "react"
 import './cantidadItems.scss'
 
-export const CantidadItems = ({claseSumar="btnCantidad"}) =>{
+export const CantidadItems = ({claseComprar="containerBtn"}) =>{
 
     const [counter, setCounter] = useState(0)
             
@@ -14,10 +14,13 @@ export const CantidadItems = ({claseSumar="btnCantidad"}) =>{
     }
 
     return (
-        <div className={claseSumar}>
+        <div className={claseComprar}>
+            <div className="btnCantidad">
             <button onClick={restar}>-</button>
             <p>{counter}</p>
             <button onClick={sumar}>+</button>
+            </div>
+            <button className="comprarBtn">comprar</button>
         </div>
     )
 }
