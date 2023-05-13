@@ -93,6 +93,7 @@ const MOCK_DATA = [
         id: "vientoABS",
         nombre: "Viento",
         descripcion: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi unde fugiat alias repudiandae delectus rerum ipsam, accusamus inventore soluta in eum voluptates saepe placeat, eaque ab est, magnam labore id!",
+        resumen:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi unde fugiat alias repudiandae...",
         precio: 55000,
         img: "https://svgsilh.com/svg/1131823.svg",
         categoria: "abstracto",
