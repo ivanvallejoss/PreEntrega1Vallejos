@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import {pedirDatos} from '../../helpers/pedirDatos.js'
 import ItemCard from "../itemCard/ItemCard.jsx";
 import './itemDetailsContainer.scss'
+import Loader from "../Loaders/bigLoader/Loader.jsx";
 
 const ItemDetailsContainer = () =>{
     const [item, setItem] = useState(null)
@@ -24,7 +25,7 @@ const ItemDetailsContainer = () =>{
         <section className="detallesContainer">
             {
                 loading
-                ? <h2>Cargando..</h2>
+                ? <Loader/>
                 : <ItemCard item={item} cardBtnDetalles="noVerDetalles" cardContainer="itemDetalles" cardImg="itemDetalles__img" cardInfo='itemDetalles__info' cardDescripcion="itemDetalles__descripcion"
                 itemDescripcion={item.descripcion}/>
             }

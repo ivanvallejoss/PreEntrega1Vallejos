@@ -23,7 +23,7 @@ const CatalogoContainer = () =>{
         <div>
         {
             loading
-            ? <h2>Cargando..</h2>
+            ? <div className="noDisplay"></div>
             : <CatalogoArticle itemCatalogo={data}/>
         }
         </div>

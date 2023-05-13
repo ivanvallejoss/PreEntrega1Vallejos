@@ -2,6 +2,7 @@ import './itemListContainer.scss'
 import { useCategories } from '../../hooks/useCategories'
 import ItemList from './itemLists/ItemLists.jsx'
 import CatalogoContainer from '../CatalogoContainer/CatalogoContainer'
+import Loader from '../Loaders/bigLoader/Loader'
 
 export const ItemListContainer = () =>{
 
@@ -12,7 +13,7 @@ export const ItemListContainer = () =>{
             <div>
             {
                 loading
-                ? <h2 id='loadingIcon'>Cargando...</h2>
+                ? <div className='loaderContainer'><Loader/></div>
                 : <ItemList items={productos}/>
             }
             </div>
