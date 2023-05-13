@@ -9,7 +9,7 @@ export const ItemList = ({items}) =>{
         {
             items.map((prod) =>{
                 return (
-                    <ItemCard item={prod} key={prod.id}/>
+                    <ItemCard item={prod} key={prod.id} btnSumar="noVerBtn"/>
                     )
             })
         }

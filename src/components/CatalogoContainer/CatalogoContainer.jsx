@@ -5,6 +5,7 @@ import CatalogoArticle from "./CatalogoArticle/CatalogoArticle"
 
 const CatalogoContainer = () =>{
 
+    // Leo la data para que toda categoria nueva sea agregada de forma automatica
     const {categoryId} = useParams()
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)

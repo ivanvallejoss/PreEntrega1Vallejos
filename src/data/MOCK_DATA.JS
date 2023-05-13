@@ -29,7 +29,7 @@ const MOCK_DATA = [
         descripcion: "lorem ipsum...",
         precio: 75,
         img: "https://svgsilh.com/svg/1670420.svg",
-        categoria: "sombrass",
+        categoria: "sombras",
     },
     {
         id: "crudoABS",
